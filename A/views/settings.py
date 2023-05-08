@@ -21,7 +21,7 @@ class SettingsView(QFrame):
         layout.addWidget(QLabel("Settings view"))
 
         # Create the checkbox with a label
-        self.use_optimized_parser = QCheckBox("Use optimized parser")
+        self.use_optimized_parser = QCheckBox("Use database (Needs to be checked when using ElementTreeXmlParser)")
 
         # Add the checkbox to the layout
         layout.addWidget(self.use_optimized_parser)
